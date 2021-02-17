@@ -1,0 +1,12 @@
+const utils = require("./utils/index.js")
+
+console.log(utils.createNewArray(3, 'a'))
+console.log(utils.reverseArray([1, 2, 3, 4]))
+console.log(utils.cleanArray(([1, 2, '', undefined])))
+console.log(utils.arrayToObject([["c", 2], ["d", 4]]))
+console.log(utils.removeItemsFromArray([5, 4, 3, 2, 5], 5, 3))
+console.log(utils.removeDuplicateValuesFromArray([1, 2, 3, 3, 2, 4, 5, 4, 7, 3]))
+console.log(utils.areArraysEqual([1, 2, 3, 4], [1, 2, 3, 4]))
+console.log(utils.untangleArray([1, 2, [3], [4, 5]]))
+console.log(utils.divideArrayByValue([1, 2, 3, 4, 5], 2))
+console.log(utils.findCommonValuesInArrays([6, 8], [8, 9]))
